@@ -354,7 +354,14 @@ export default defineConfig({
 		plugins: [tailwindcss()],
 		server: {
 			watch: {
-				ignored: ["**/package/**", "**/Firefly-docs/**"],
+				ignored: [
+					"**/package/**",
+					"**/Firefly-docs/**",
+					// Visual Studio 的索引/缓存目录，其中的 .vsidx 等文件常被 VS 锁定，
+					// 监听会抛 EBUSY 并直接终止 dev server
+					"**/.vs",
+					"**/.vs/**",
+				],
 			},
 		},
 		resolve: {

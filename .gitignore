@@ -32,6 +32,7 @@ yarn.lock
 # ide
 .idea
 *.iml
+.vs/
 
 # docs
 Firefly-docs/
