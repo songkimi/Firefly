@@ -37,7 +37,7 @@ const pages = resolvePageToggles({
 	// ── 关于 (About) ──────────────────────────────────
 
 	// 打赏页面开关
-	sponsor: true,
+	sponsor: false,
 });
 
 export const siteConfig: SiteConfig = {
@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "我的个人小站",
 
 	// 站点 URL
-	site_url: "https://394000.xyz",
+	site_url: "https://firefly.2405969191.workers.dev/",
 
 	// 站点描述
 	description:
