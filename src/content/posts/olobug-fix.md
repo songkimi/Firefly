@@ -5,6 +5,7 @@ pinned: false
 description: 记录和解决在调试WebView2作为live2D的预览区时，遇到了加载过程出现的白屏问题
 tags: [Bug修复, osu-live2d-overlay]
 image: https://cloudflare_imgbed.2405969191.workers.dev/file/1791028512834_264a7462-85b0-4766-b5fa-3815139be4b9.png
+category: 踩坑记录
 slug: olobug-fix
 ---
 
