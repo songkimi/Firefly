@@ -4,8 +4,8 @@ slug: osu-live2d-overlay
 published: 2026-09-29
 order: 100
 description: "live 2d的osu!lazer陪伴推分型项目"
-image: "images/osuandlive2d.png"
-status: "developing"
+image: "https://cloudflare_imgbed.2405969191.workers.dev/file/1791002506147_14c819d9-36bd-43b2-beef-23500f5ae655.png"
+status: "published"
 tags:
   - C#
   - desktop-pet
